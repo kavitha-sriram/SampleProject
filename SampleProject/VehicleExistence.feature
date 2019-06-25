@@ -27,6 +27,7 @@ When I enter an invalid "<Registration Number>"
 Then "Please enter a valid car registration" error should appear
 Examples:
 | Registration Number |
+|                     |
 | OV1,2UYY            |
 | OV.12UYY            |
 | ov12!uyy            |
