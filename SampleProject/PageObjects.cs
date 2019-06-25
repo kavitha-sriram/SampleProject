@@ -13,9 +13,7 @@ namespace SampleProject
         private readonly IWebDriver driver;
         public PageObjects(IWebDriver _driver)
         {
-#pragma warning disable CS0618 // Type or member is obsolete
             PageFactory.InitElements(_driver, this);
-#pragma warning restore CS0618 // Type or member is obsolete
             this.driver = _driver;
         }
 
